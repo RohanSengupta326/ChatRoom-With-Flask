@@ -34,15 +34,15 @@ RChat - Chat rooms are back in style!
 
    The two lines to be edited in application.py are shown below:
 
-    ```
-    app.secret_key=os.environ.get('SECRET')
-    app.config['SQLALCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URL')
-    ```
+```
+app.secret_key=os.environ.get('SECRET')
+app.config['SQLALCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URL')
+```
 
    2. Edit create.py to once again replace os.environ.get('DATABASE_URL') with the link to your database.
 
    3. Run create.py from the terminal to create the table to hold user credentials.
 
-    ```
-    foo@bar:~$ python create.py
-    ```
+```
+foo@bar:~$ python create.py
+```
