@@ -32,16 +32,16 @@ RChat - Chat rooms are back in style!
 
    1. Modify application.py to replace the secret key (i.e. os.environ.get('SECRET')) with a secret key of your choice and the database link (i.e. os.environ.get('DATABASE_URL')) with the link to your own database.
 
-    The two lines to be edited in application.py are shown below:
+   The two lines to be edited in application.py are shown below:
 
     ```
     app.secret_key=os.environ.get('SECRET')
     app.config['SQLALCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URL')
     ```
 
-    2. Edit create.py to once again replace os.environ.get('DATABASE_URL') with the link to your database.
+   2. Edit create.py to once again replace os.environ.get('DATABASE_URL') with the link to your database.
 
-    3. Run create.py from the terminal to create the table to hold user credentials.
+   3. Run create.py from the terminal to create the table to hold user credentials.
 
     ```
     foo@bar:~$ python create.py
