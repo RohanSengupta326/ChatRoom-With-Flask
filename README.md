@@ -25,7 +25,7 @@ RChat - Chat rooms are back in style!
 
 
 ## Run app - 
-**Link** - ![rchat-app.herokuapp.com]
+**Link** - [click here](rchat-app.herokuapp.com)
 
 
 ## Clone/Modify app
